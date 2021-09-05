@@ -217,3 +217,58 @@ body {
     border-bottom: solid 2px #000;
     margin: 10px 32%;
 }
+
+@media screen and (max-width:1024px) and (orientation:portrait) {
+    .header_Dsg a {
+        padding: 0px 5px;
+    }
+    .tripImg_Dsg {
+        width: 90%;
+        margin-top: 40%;
+    }
+    .tripText_Dsg {
+        width: 100%;
+        margin-top: 0%;
+    }
+    .tripText_Dsg h2 {
+        font-size: 35px;
+    }
+    .planTrin_btn {
+        width: 35%;
+        height: 45px;
+        margin: 10px 0;
+    }
+    .tripText_Dsg {
+        width: 100%;    
+        margin-top: 0%;
+        text-align: center;
+    }
+    .title_Head {
+        font-size: 15px;
+    }
+    .count_Weather_dsg {
+        width: 50%;
+        height: 190px;
+    }
+    .dest_dsg img {
+        width: 100px;
+        height: 100px;
+    }
+    .dest_dsg {
+        width: 35%;
+    }
+    .quote_head h2 {
+        font-size: 25px;
+    }
+    .quote_head p {
+        font-size: 15px;
+        width: 50%;
+    }
+    .quot_sbt {
+        width: 30%;
+    }
+    .success_msg p {
+        width: 90%;
+        margin: 5px 0;
+    }
+}
